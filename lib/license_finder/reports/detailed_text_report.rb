@@ -9,6 +9,7 @@ module LicenseFinder
             s.name,
             s.version,
             s.license.name,
+            s.homepage,
             s.summary ? s.summary.strip : "",
             s.description ? s.description.strip : ""
           ]
